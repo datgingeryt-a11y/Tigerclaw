@@ -16,13 +16,13 @@ body
 body {
 background: url('https://i.imgur.com/77cvute.png') center center fixed;
 background-size: 100%;
-color: #HEX; } }
+color: #161121; } }
 
 @media screen and (max-width: 600px){
 body {
-background: #HEX;
+background: #161121;
 background-size: cover;
-color: #HEX; } }
+color: #161121; } }
 
  
 ::-webkit-scrollbar {
@@ -103,56 +103,18 @@ border-radius: 0px !important;}
 .breadcrumb .active {
 color: #161121; }
 
- 
-.alert {
-background: #HEX !important;
-color: #HEX !important;
-border: none !important;
-border-radius: 0px !important;
-text-align: center !important;  }
-.alert-warning {
-background: #HEX !important;
-color: #HEX !important;}
-.alert-danger {
-background: ##e61815 !important;
-color: #f2e9e9 !important;}
-.alert-success {
-background: #HEX !important;
-color: #e3f7e1 !important;}
-
 
 div#commentBox {
 background: #161121 !important;
 border: none !important;
 border-radius: 0px !important;
 color: #463d59 !important;}
-	
-.comment {     
-background: #HEX !important;
-border: none !important;
-border-bottom: none !important;
-border-radius: 0px !important;
-color: #HEX !important;
-text-align: center !important;}
-.text-muted { 
-color: #HEX !important; }
-
-input.bad {
-background: #HEX !important;
-color: #HEX !important;}
-input.bad a {
-color: #HEX !important; }
-
-table#player.table hr {
-display: none !important; }
-table#player.table div.xlarge { 
-margin-top: 10px !important; }
 
  
 .panel {
 background-color: #161121 !important;
 background-image: url("https://www.transparenttextures.com/patterns/ps-neutral.png")
-color: #HEX !important;
+color: #161121 !important;
 border: none !important;
 border-radius: 0px !important;
 box-shadow: none !important;  }
@@ -163,27 +125,22 @@ border-radius: 0px !important; }
 
 /* ENERGY */ .progress-bar-warning { 
 background: #e4a574 !important;
-color: #HEX !important;}
+color: #fcfcfc !important;}
 /* HUNGER */ .progress-bar-danger { 
 background: #e4a574 !important;
-color: #HEX !important;}
+color: #fcfcfc !important;}
 /* EXP + ACHIEVEMENTS */ .progress-bar-success { 
 background: #e4a574 !important;
-color: #HEX !important;}
+color: #fcfcfc !important;}
 
 .progress div {
-color: #HEX !important; }
+color: #fcfcfc !important; }
 
 .progress {
 background-color:  #161121;
 background-image: url("https://www.transparenttextures.com/patterns/ps-neutral.png")
-color: #HEX !important;
-border-radius: 0px !important;  }
-
-
-img[src$="icon_warning.png"] {
-content: url('imagelink') !important;
-width: 24px !important; }
+color: #fcfcfc !important;
+border-radius: 0px !important;  
  
 
 button#label_currentChannel {
@@ -194,67 +151,27 @@ background-image: url("https://www.transparenttextures.com/patterns/ps-neutral.p
 div#chatMessageContainer {
 border: none !important; }
 
-.s-chat-message_timestamp {
-color: #HEX !important; }
 
 .s-chat-sidebar #fraChatChannelMenu,
 button.channelSwitcher, button.channelSwitcher.active {
     background-color: #161121 !important;
     background-image: url("https://www.transparenttextures.com/patterns/ps-neutral.png")
-color: #HEX !important;	
+color: #fcfcfc !important;	
 border: none !important;
 border-radius: 0px !important;
 box-shadow: none !important; }
 
-div.emoteList.active {
-  background: #HEX !important;
-  border: 1px solid #HEX !important;
-  box-shadow: none !important;
-}
-div.emoteList.active::before {
-background: #HEX
-border-top: none !important;
-border: 1px solid #HEX !important; }
-
-.s-chat-message__pinned {
-background-color: #HEX !important;
-color: #HEX !important;
-border: none !important; }
-
-.s-chat-message {
-background: #HEX !important;
-color: #HEX !important;
-border-bottom: #HEX !important; }
-
-.s-chat-message:nth-child(even) {
-background: #HEX !important;
-border: none !important; }
-.s-chat-message:nth-child(odd) {
-background: #HEX !important;
-border: none !important; }
-	
-#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
-background-color: #HEX !important;
-border-left: 6px solid #HEX !important;
-color: #HEX !important; }
-
-div#lblCharacterCounter {
-color: #HEX !important; }
-
-html.nolayout {
-background: none !important; }
- 
 .feature {
 background-color: #161121 !important;
 background-image: url("https://www.transparenttextures.com/patterns/ps-neutral.png")
-color: #HEX !important;
-border: 3px double #HEX !important;
+color: #fcfcfc !important;
+border: 3px double #fcfcfc !important;
 border-radius: 0px !important;  }
 
 div.left {
 background: #161121 !important;
 background-image: url("https://www.transparenttextures.com/patterns/ps-neutral.png")
-color: #HEX !important;
+color: #fcfcfc !important;
 border: none !important;
 border-radius: 0px !important; }
 
@@ -293,11 +210,6 @@ background: none !important; }
     
 }
 
-div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-display: none;}
-div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
-content: url('IMG LINK'); }
- 
  
 input, textarea, select, button.button,
 a.btn.btn-default.button {
@@ -357,27 +269,8 @@ content:url('https://i.ibb.co/HLmkLwj2/image5.jpg') !important;
 background-size: cover;
 width: 100%;
 height: auto; } 
-remove credit
- 
-/* KING DYNASTY */
-img[src$="ancestors.jpg"] {
-    content:url('LINK')!important;
-    width:185px!important; }
- 
-/* PRIDE DYNASTY */
-img[src$="ancestorsfem.png"] {
-    content:url('LINK')!important;
-    width:185px!important; }
- 
-/* ACHIEVMENTS */
-img[src$="achievements.jpg"] {
-    content:url('LINK')!important;
-    width:185px!important; }
- 
-/* SHOWCASE */
-img[src$="showcase/banner.png"] {
-    content:url('LINK')!important;
-    width:185px!important; 
+
+
 
 
 /* MEMBER ONLINE */
@@ -404,7 +297,7 @@ img[src$="showcase/banner.png"] {
  
 .breadcrumb::after {
 content: "css template by katie (#106445) & jester (#187561)";
-color: #HEX;
+color: #fcfcfc;
 position: absolute;
 right: 13%;
 z-index: 100; }
